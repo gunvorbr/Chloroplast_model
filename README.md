@@ -5,5 +5,5 @@ Most reactions are common for all three organisms, but certain reactions are org
 The script changeOrganismMode.m can be used to change organism mode. The default organism mode is Nannochloropsis. changeOrganismMode changes upper and lower (if reversible reaction) bounds of all reactions with an organism tag.
 More organism modes can be introduced to the chloroplast model by adding extra reactions to it. New reactions that are added for a specific organism should be tagged in the same manner as described above.
 The chloroplast model can be plugged into a larger model structure in need of a chloroplast department. The script plugAndPlay.m will plug the model into an exo-model and change the namespace of the metabolites in the chloroplast model to match the namespace used in the exo-model.
-This repository also contains scripts developed specifically for working with the chloroplast model in MATLAB. The scripts all contains descriptions, and can be used alongside the COBRA toolbox.
+This repository also contains scripts developed specifically for working with the chloroplast model in MATLAB (located in branch Scripts). The scripts all contains descriptions, and can be used alongside the COBRA toolbox.
 - Gunvor Røkke, NTNU, 2021
